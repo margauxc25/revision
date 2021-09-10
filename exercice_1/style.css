@@ -29,6 +29,14 @@ p {
     text-decoration: line-through;
 }
 
-@media (min-width : 1024px) {
-    
+.a {
+    color: rgb(0, 160, 175);
+}
+
+.l {
+    color: rgb(229, 255, 0);
+}
+
+.c {
+    color: darkblue;
 }
