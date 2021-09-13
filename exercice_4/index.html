@@ -12,9 +12,9 @@
     <header>
         <nav>
             <ul>
-                <li>
-
-                </li>
+                <li><a href="">Chown</a></li>
+                <li><a href="">Chmod</a></li>
+                <li><a href="">rwx</a></li>
             </ul>
         </nav>
     </header>
@@ -26,10 +26,26 @@
     </section>
     <section>
         <h2>Chmod</h2>
-        <p>Chmod permet de modifier les permissions d'un fichier ou d'un dossier. Il existe trois types d'utilisateurs pouvant interagir avec le dossier/fichiers.</p>
+        <p>Chmod permet de modifier les permissions d'un fichier ou d'un dossier. Il existe trois types d'utilisateurs pouvant interagir avec le dossier/fichiers : 
+        <p>Le propriétaire : utilisateur qui crée et possède le dossier ou le répertoire.</p> 
+        <p>Le groupe : Tous les utilisateurs membre d'un groupe.</p> 
+        <p>Les autres : Tous les utilisateurs non propriétaire et/ou non membres du groupe.</p> 
+        </p>
     </section>
     <section>
         <h2>Lire, écrire, executer</h2>
+        <p>La commande chmod est suivie de 3 caractères : r pour la lecture, w pour l'écriture et x pour executer.</p>
+        <p>Exemples :</p>
+        <ul>
+            <li>– – – (aucun droit)</li>
+            <li>– – x (exécution)</li>
+            <li>– w – (écriture)</li>
+            <li>– w x (écriture et exécution)</li>
+            <li>r – – (lecture seule)</li>
+            <li> r – x (lecture et exécution)</li>
+            <li>r w – (lecture et écriture</li>
+            <li>r w x (lecture, écriture et exécution)</li>
+        </ul>
     </section>
     <footer>
 
