@@ -1,0 +1,9 @@
+img {
+    height: 25rem;
+}
+
+@media (min-width :1024px){
+    ul{
+        width: 25%;
+    }
+}

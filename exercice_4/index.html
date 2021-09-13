@@ -25,7 +25,8 @@
       </nav>
     </header>
 <main>
-    <h1 class="mb-4 mt-4 ml-2"> Chown et Chmod</h1>
+    <h1 class="mb-4 mt-4 ml-2 text-center"> Chown et Chmod</h1>
+    <img class="rounded mx-auto d-block" src="./images/chmod_chown.jpg" alt="image chown et chmod">
     <section class="mb-4 mt-4 ml-2">
         <h2>Chown</h2>
         <p>Chown est une abréviation pour "changing owner", elle permet de modifier les propriétaires d'un fichier ou d'un dossier. </p>
@@ -40,20 +41,24 @@
     </section>
     <section class="mb-4 mt-4 ml-2">
         <h2>Lire, écrire, executer</h2>
+        <img src="./images/rwx.png" alt="">
         <p>La commande chmod est suivie de 3 caractères : r pour la lecture, w pour l'écriture et x pour executer.</p>
-        <p>Exemples :</p>
-        <ul>
-            <li>– – – (aucun droit)</li>
-            <li>– – x (exécution)</li>
-            <li>– w – (écriture)</li>
-            <li>– w x (écriture et exécution)</li>
-            <li>r – – (lecture seule)</li>
-            <li> r – x (lecture et exécution)</li>
-            <li>r w – (lecture et écriture</li>
-            <li>r w x (lecture, écriture et exécution)</li>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">– – – (aucun droit)</li>
+            <li class="list-group-item list-group-item-secondary">– – x (exécution)</li>
+            <li class="list-group-item list-group-item-success">– w – (écriture)</li>
+            <li class="list-group-item list-group-item-danger">– w x (écriture et exécution)</li>
+            <li class="list-group-item list-group-item-warning">r – – (lecture seule)</li>
+            <li class="list-group-item list-group-item-info"> r – x (lecture et exécution)</li>
+            <li class="list-group-item list-group-item-light">r w – (lecture et écriture</li>
+            <li class="list-group-item list-group-item-dark">r w x (lecture, écriture et exécution)</li>
         </ul>
     </section>
-    <footer>
+    <footer class="bg-light" >
+      <a class="navbar-brand text-dark" href="#">HELLO !</a>
+      <a class="text-dark" href="">Chmod</a>
+      <a class="text-dark" href="">Chown</a>
+      <a class="text-dark" href="">rwx</a>
     </footer>
 </main>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
