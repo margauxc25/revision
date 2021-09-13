@@ -13,7 +13,7 @@ div.addEventListener("click", function(){
    div.classList.add("divstylechange");
 });
 
-// section 3
+// Section 3
 
 let movies = ['Avatar', 'Avengers: Endgame', 'Titanic', 'Star Wars, épisode VII : Le Réveil de la Force', 'Avengers : Infinity War'];
 let btnrandom = document.getElementById('btn');
@@ -26,3 +26,7 @@ btnrandom.addEventListener("click", function(){
     thridsection.append(newp2);
 })
 
+// Section 4
+
+let input = document.getElementById('input').value;
+let btn4 = document.getElementById('btnsection4')
