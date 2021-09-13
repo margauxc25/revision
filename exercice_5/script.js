@@ -25,3 +25,4 @@ btnrandom.addEventListener("click", function(){
     newp2.textContent = (random, movies[random]);
     thridsection.append(newp2);
 })
+

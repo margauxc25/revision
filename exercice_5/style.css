@@ -14,7 +14,7 @@ div {
 
 /* Section 3 */
 
-button {
+button:nth-child(1) {
     padding: 0.5rem;
     border-radius: 50%;
 }
