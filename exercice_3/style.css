@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    border: black 1px solid;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+
+li:hover {
+    border:red 1px solid;
+}
+
+li:nth-child(3):hover{
+    border: green 1px solid;
+}
+
+@media (min-width: 1024px){
+
+    li {
+        list-style: none;
+        border: black 3px solid;
+        margin-right: 0.5rem;
+        padding: 0.2rem 0.5rem;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+    
+    li:hover {
+        border:red 3px solid;
+    }
+    
+    li:nth-child(3):hover{
+        border: rgb(6, 199, 6) 3px solid;
+    }
+}
