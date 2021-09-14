@@ -28,7 +28,7 @@ btnrandom.addEventListener("click", function(){
 
 // Section 4
 
-let input = document.getElementById("text").value;
+let valueinput = document.getElementById("text").value;
 let btn4 = document.getElementById('btnsection4');
 let p4 = document.getElementById('psection4');
 
